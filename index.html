@@ -1,0 +1,241 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>DineroEfectivo</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1"><center>Sección 1: Un Mundo sin Efectivo</center></a>
+          <a href="#secc2"><center>Sección 2: Caducidad del Dinero</center></a>
+          <a href="#secc3"><center>Sección 3: El Rehén de los Bancos</center></a>
+          <a href="#secc4"><center>Sección 4: Los riesgos</center></a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+    			<br>
+		        <h1>UN MUNDO SIN EFECTIVO</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br>
+		        <p>Un mundo sin efectivo implica una transformación radical en la manera en que las transacciones se llevan a cabo, donde el uso de monedas físicas es reemplazado por métodos digitales de pago. Este cambio conlleva diversos aspectos positivos, como la conveniencia y la rapidez en las transacciones, permitiendo a las personas realizar compras desde cualquier lugar y en cualquier momento.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Estamos caminando hacia un escenario en el que el uso de efectivo está en constante disminución, impulsado por varios factores clave. Los avances tecnológicos, como la proliferación de smartphones y aplicaciones de pago, han facilitado las transacciones digitales, haciendo que sean más convenientes y rápidas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>Un mundo sin efectivo implica una transformación radical en la manera en que las transacciones se llevan a cabo, donde el uso de monedas físicas es reemplazado por métodos digitales de pago.</p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p>Estamos caminando hacia un escenario en el que el uso de efectivo está en constante disminución, impulsado por varios factores clave, los avances tecnológicos y aplicaciones de pago.</p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Caducidad del dinero</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p><center><div style="background-color: #CFE85F; border-radius: 10px; padding: 10px;"><font size="5"><strong>
+    Caducidad del dinero, si no se gasta en determinado tiempo el dinero desaparece de la cuenta, lo que imposibilita el ahorro y el prosperar financieramente.</strong></font></div></center></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Para conocer más a fondo sobre este aspecto, hay que visualizar los pros y contras:
+		        	<br>
+		        	<br>
+<p style="margin-left: 20px;">
+    <b>•	Ventajas:</b>
+</p>
+
+<br>
+<br>
+<p style="margin-left: 50px;">
+    
+Control Fiscal: Al eliminar el uso del dinero en efectivo, se facilita el seguimiento de las transacciones financieras, lo que permite a las autoridades fiscales monitorizar de manera más efectiva los ingresos y gastos de los individuos y las empresas. Esto reduce las oportunidades de evasión fiscal y aumenta la transparencia en las operaciones económicas. Además, el uso de herramientas digitales para el pago de impuestos y la presentación de declaraciones fiscales simplifica el proceso, fomenta la eficiencia administrativa y promueve una mayor recaudación fiscal</p>
+<br>
+<br>
+<p style="margin-left: 50px;">Ahorro de costes: el avance hacia un sistema de pagos digitales también conlleva un notable ahorro de costes para tanto individuos como empresas. Para las organizaciones, el manejo del efectivo implica gastos significativos relacionados con la seguridad, el transporte y el almacenamiento de billetes y monedas. Al adoptar métodos de pago electrónicos, se reducen costos operativos como la contratación de personal para la gestión de efectivo y las tarifas asociadas a la manipulación y el procesamiento de dinero físico. </p>
+<br>
+<br>
+<p style="margin-left: 50px;">Seguridad:  Al eliminar el uso de dinero en efectivo, se reduce el riesgo de robos y pérdidas asociadas al manejo de billetes y monedas.
+Ventaja para los bancos:  las instituciones financieras pueden optimizar sus operaciones y minimizar los costos asociados al transporte, almacenamiento y seguridad del dinero físico. Esto les permite invertir en tecnología y servicios digitales</p>
+<p style="margin-left: 20px;">
+<br>
+<b>•	Desventajas:</b>
+</p><br>
+<p style="margin-left: 50px;">Accesibilidad:  para ciertos grupos de la población. No todos tienen acceso igual a la tecnología necesaria para realizar transacciones digitales, lo que puede excluir a personas mayores, individuos de bajos ingresos y aquellos que viven en áreas rurales con infraestructura limitada.
+</p> 
+<p style="margin-left: 50px;">Fraude:  A medida que más transacciones se realizan en línea, los delincuentes se vuelven más astutos en el desarrollo de técnicas para robar información financiera, como el phishing, el malware y el hacking de cuentas. Las personas pueden ser engañadas para que compartan sus datos personales o bancarios, lo que puede resultar en la pérdida de ahorros e inversiones
+Privacidad: Cuando las transacciones se realizan de manera digital, cada compra y movimiento de dinero queda registrado en bases de datos, lo que permite a las empresas y gobiernos rastrear el comportamiento financiero de los individuos.
+<br>
+<br>
+•	Fintech
+<br>
+La relación entre las fintech (tecnologías financieras) y la desaparición del dinero en efectivo es cada vez más estrecha, ya que estas empresas están a la vanguardia de la transformación digital en el sector financiero. Las fintech ofrecen soluciones innovadoras que facilitan las transacciones electrónicas, permitiendo a los usuarios realizar pagos, transferencias y gestiones financieras de manera rápida y eficiente, sin necesidad de utilizar efectivo. A través de aplicaciones móviles y plataformas digitales, las fintech han hecho que el acceso a servicios financieros sea más ágil y conveniente, impulsando así la tendencia hacia un sistema sin efectivo.
+<br>
+<br>
+
+</p>
+
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p> La caducidad del dinero puede obstaculizar el crecimiento financiero personal. La acumulación de ahorros es fundamental para la inversión y la creación de un colchón financiero que permita afrontar imprevistos.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		       <p><center><div style="background-color: #CFE85F; border-radius: 10px; padding: 10px;"><font size="5"><strong>
+    El ser rehén de los bancos y de quienes tengan control del dinero electrónico.</strong></font></div></center></p>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Los riesgos financieros se refieren a la posibilidad de que una persona, empresa o institución sufra pérdidas económicas debido a diversas situaciones adversas. Estos riesgos pueden surgir de factores como la volatilidad del mercado, cambios en las tasas de interés, fluctuaciones en los tipos de cambio, incumplimientos de pago por parte de deudores, o eventos inesperados como crisis económicas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Los riesgos financieros que enfrentan los bancos son variados y pueden tener un impacto significativo en su operativa y estabilidad. Entre los principales riesgos se encuentran el riesgo de crédito, que se refiere a la posibilidad de que los prestatarios no cumplan con sus obligaciones de pago, lo que podría resultar en pérdidas para la entidad.</p>
+		        <br>
+		        <p>Otro riesgo importante es el riesgo de mercado, que implica la posibilidad de que los cambios en las tasas de interés o en los precios de los activos afecten negativamente el valor de las inversiones del banco.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>La posibilidad de que las finanzas de una persona sean afectadas por sus creencias o opiniones puede conducir a una inseguridad económica. Esto también puede desincentivar a las personas a participar en discusiones críticas o a defender sus opiniones.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <p><center><div style="background-color: #CFE85F; border-radius: 10px; padding: 10px;"><font size="5"><strong>
+    Si mis puntos de vista u opiniones no son del agrado de gente en el poder pueden congelar o borrar mi dinero.</strong></font></div></center></p>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Esta sección se ve relacionada estrechamente con la corrupción financiera la cual se refiere a prácticas ilegales o poco éticas que ocurren en el ámbito financiero, donde individuos o grupos utilizan su poder y acceso a recursos económicos para obtener beneficios personales a expensas de la integridad del sistema. Esta corrupción puede manifestarse de diversas maneras, como el lavado de dinero, el fraude financiero, la malversación de fondos y el soborno. Estos actos no solo afectan a las instituciones involucradas, sino que también tienen repercusiones más amplias en la economía, erosionando la confianza pública en las entidades financieras y en el sistema económico en general.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El combate a la corrupción a nivel internacional se basa en la colaboración entre gobiernos, organizaciones no gubernamentales y organismos internacionales, como la ONU y la OCDE, que promueven estándares y políticas anticorrupción. Iniciativas como la Convención de las Naciones Unidas contra la Corrupción establecen marcos legales y mecanismos de cooperación para facilitar la investigación y el enjuiciamiento de delitos relacionados con la corrupción.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>La idea de que el dinero puede ser "congelado" o "borrado" implica un nivel de control que algunas entidades (como gobiernos o instituciones financieras) pueden tener sobre los individuos. Esto puede interpretarse como una crítica a sistemas donde el poder se utiliza para coaccionar o silenciar voces disidentes.</p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	    <br>
+	     <p><font size="5">Para más información:</font></p>
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/SE.Economia">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://x.com/SE_mx?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="https://www.instagram.com/theeconomist/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
